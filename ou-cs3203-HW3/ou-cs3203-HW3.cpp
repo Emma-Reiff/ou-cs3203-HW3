@@ -12,3 +12,13 @@ int add(int arr[]) {
 
     return sum;
 }
+
+int multiply(int arr[]) {
+    int prod = 1;
+
+    for (int i = 0; i < 5; i++) {
+        prod *= arr[i];
+    }
+
+    return prod;
+}
