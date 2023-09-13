@@ -53,8 +53,6 @@ int main()
 
     cout << "Sum: " << sum << endl << "Product: " << product << endl;
 
-
-
     ////////////////////////////////////////////////////////
     // "Make any change to your code (e.g., add a comment)"
     ////////////////////////////////////////////////////////
@@ -71,3 +69,4 @@ int main()
 
 
 }
+
