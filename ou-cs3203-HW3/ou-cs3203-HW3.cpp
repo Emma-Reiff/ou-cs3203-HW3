@@ -22,3 +22,21 @@ int multiply(int arr[]) {
 
     return prod;
 }
+
+int main()
+{
+    cout << "Enter 5 numbers to perform addition and multiplication on: \n";
+
+    int arr[5];
+
+    for (int i = 0; i < 5; i++)
+    {
+        cin >> arr[i];
+    }
+
+    int sum = add(arr);
+    int product = multiply(arr);
+
+    cout << "Sum: " << sum << endl << "Product: " << product << endl;
+
+}
