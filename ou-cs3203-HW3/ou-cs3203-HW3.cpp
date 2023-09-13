@@ -3,6 +3,10 @@
 #include <array>
 using namespace std;
 
+///////////////////////////////////////////////
+// Making a comment to change my code (part 10)
+///////////////////////////////////////////////.
+
 int add(int arr[]) {
 
     int sum = 0;
@@ -64,3 +68,5 @@ int main()
     }
 
 }
+
+
