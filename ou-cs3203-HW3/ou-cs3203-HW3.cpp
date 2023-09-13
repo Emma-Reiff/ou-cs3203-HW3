@@ -53,4 +53,14 @@ int main()
 
     cout << "Sum: " << sum << endl << "Product: " << product << endl;
 
+    int* rarrPtr = reverse(arr);
+
+    int index = 0;
+
+    while (index < 5)
+    {
+        cout << rarrPtr[index] << " ";
+        index++;
+    }
+
 }
