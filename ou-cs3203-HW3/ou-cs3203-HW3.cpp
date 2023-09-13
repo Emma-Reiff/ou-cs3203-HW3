@@ -1,5 +1,6 @@
 
 #include <iostream>
+#include <array>
 using namespace std;
 
 int add(int arr[]) {
@@ -21,6 +22,19 @@ int multiply(int arr[]) {
     }
 
     return prod;
+}
+
+int* reverse(int arr[]) 
+{
+
+    int* newArr = new int[5];
+
+    for (int i = 0; i < 5; i++)
+    {
+        newArr[5 - i - 1] = arr[i];
+    }
+ 
+    return newArr;
 }
 
 int main()
